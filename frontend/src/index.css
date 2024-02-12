@@ -217,7 +217,24 @@ img {
   .one a img {
     width: 20%;
   }
+
+ 
   
+  .two img {
+    width: 100%;
+    border-radius: 65px;
+  }
+  
+  .two button img {
+    width: 20%;
+  }
+  .full-width-container{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    
+  }
   
   /* Optionally, you can use the following CSS to clear the float */
 
