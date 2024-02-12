@@ -36,6 +36,8 @@ const SearchJob = () => {
     localStorage.removeItem("username");
     setIsLoggedIn(false);
     setUsername('');
+    localStorage.clear();
+    window.location.reload();
   };
   const logout=()=>{
     localStorage.clear();
