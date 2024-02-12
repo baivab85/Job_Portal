@@ -37,7 +37,10 @@ const SearchJob = () => {
     setIsLoggedIn(false);
     setUsername('');
   };
-
+  const logout=()=>{
+    localStorage.clear();
+    window.location.reload();
+}
   return (
     <>
       
@@ -105,6 +108,7 @@ const SearchJob = () => {
                     <p className="fs-5 fw-medium text-white mb-4 pb-2">
                       JOB_PORTAL.ORG
                     </p>
+                    
                   </div>
                 </div>
               </div>
